@@ -1,4 +1,7 @@
 # 🏫 School Management System (CLI Version)
+<p align="center">
+  <img src="/assets/banner.png" alt="School Management System Banner" width="100%">
+</p>
 
 ## 📌 Overview
 
