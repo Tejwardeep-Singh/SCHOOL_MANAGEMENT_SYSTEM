@@ -1,5 +1,4 @@
 # SCHOOL MANAGEMENT SYSTEM 
-# BY TEJWAR AND JASHAN
 
 import mysql.connector
 import datetime
@@ -25,16 +24,16 @@ designation varchar(20),
 age int,
 basic_pay_statement int)''')
 
-a.execute("insert into teacher  values(1,001,001,'SAKSHAM BHASKAR','PRINCIPLE',35,45000)")
-# a.execute("insert into teacher  values(2,002,002,'RAKESH KUMAR','SUBJECT TEACHER',37,30000)")
-# a.execute("insert into teacher  values(3,003,003,'JAYANT YADAV','SUBJECT TEACHER',25,30000)")
-# a.execute("insert into teacher  values(4,004,004,'GURMEET KAUR','SUBJECT TEACHER',30,30000)")
-# a.execute("insert into teacher  values(5,005,005,'MOHIT SHARMA','SUBJECT TEACHER',35,30000)")
-# a.execute("insert into teacher  values(6,006,006,'JASHANPREET SINGH','VICE PRINCIPLE',29,35000)")
-# a.execute("insert into teacher  values(7,007,007,'SHIVAM KUMAR','CO-ORDINATER',26,32000)")
-# a.execute("insert into teacher  values(8,008,008,'BABLU MISHRA','PT TEACHER',27,30000)")
-# a.execute("insert into teacher  values(9,009,009,'NISHAN SINGH','SUBJECT TEACHER',40,30000)")
-# a.execute("insert into teacher  values(10,010,010,'SURSANGAM KAUR','RECEPTION',33,20000)")
+a.execute("insert ignore into teacher  values(1,001,001,'SAKSHAM BHASKAR','PRINCIPLE',35,45000)")
+a.execute("insert ignore into teacher  values(2,002,002,'RAKESH KUMAR','SUBJECT TEACHER',37,30000)")
+a.execute("insert ignore into teacher  values(3,003,003,'JAYANT YADAV','SUBJECT TEACHER',25,30000)")
+a.execute("insert ignore into teacher  values(4,004,004,'GURMEET KAUR','SUBJECT TEACHER',30,30000)")
+a.execute("insert ignore into teacher  values(5,005,005,'MOHIT SHARMA','SUBJECT TEACHER',35,30000)")
+a.execute("insert ignore into teacher  values(6,006,006,'JASHANPREET SINGH','VICE PRINCIPLE',29,35000)")
+a.execute("insert ignore into teacher  values(7,007,007,'SHIVAM KUMAR','CO-ORDINATER',26,32000)")
+a.execute("insert ignore into teacher  values(8,008,008,'BABLU MISHRA','PT TEACHER',27,30000)")
+a.execute("insert ignore into teacher  values(9,009,009,'NISHAN SINGH','SUBJECT TEACHER',40,30000)")
+a.execute("insert ignore into teacher  values(10,010,010,'SURSANGAM KAUR','RECEPTION',33,20000)")
 
 # student table kindergarden>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -48,11 +47,11 @@ class varchar(20),
 address varchar(20),
 mobile int)''')
 
-# a.execute("insert into kindergarden values(001,101,001,'sukhchain singh','wariam singh','kindergarden','amritsar',9856)")
-# a.execute("insert into kindergarden values(002,102,002,'himmat singh','hardy sandhu','kindergarden','amritsar',9854)")
-# a.execute("insert into kindergarden values(003,103,003,'raju ghosla','ramesh ghosla','kindergarden','amritsar',9888)")
-# a.execute("insert into kindergarden values(004,104,004,'tanveer bhatia','rajesh bhatia','kindergarden','amritsar',9870)")
-# a.execute("insert into kindergarden values(005,105,005,'priya kumari','ram kumar','kindergarden','amritsar',9832)")
+a.execute("insert ignore into kindergarden values(001,101,001,'sukhchain singh','wariam singh','kindergarden','amritsar',9856)")
+a.execute("insert ignore into kindergarden values(002,102,002,'himmat singh','hardy sandhu','kindergarden','amritsar',9854)")
+a.execute("insert ignore into kindergarden values(003,103,003,'raju ghosla','ramesh ghosla','kindergarden','amritsar',9888)")
+a.execute("insert ignore into kindergarden values(004,104,004,'tanveer bhatia','rajesh bhatia','kindergarden','amritsar',9870)")
+a.execute("insert ignore into kindergarden values(005,105,005,'priya kumari','ram kumar','kindergarden','amritsar',9832)")
 
 # student table class_1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -66,11 +65,11 @@ class varchar(20),
 address varchar(20),
 mobile int)''')
 
-# a.execute("insert into class_1 values(006,106,006,'priya pandey','garry pandey','class_1','amritsar',9856)")
-# a.execute("insert into class_1 values(007,107,007,'preetam singh','ramandeep sandhu','class_1','amritsar',9854)")
-# a.execute("insert into class_1 values(008,108,008,'arjun ghosla','karan ghosla','class_1','amritsar',9888)")
-# a.execute("insert into class_1 values(009,109,009,'harmanpreet','varun singh','class_1','amritsar',9870)")
-# a.execute("insert into class_1 values(010,110,010,'tom boon','harry boon','class_1','amritsar',9832)")
+a.execute("insert ignore into class_1 values(006,106,006,'priya pandey','garry pandey','class_1','amritsar',9856)")
+a.execute("insert ignore into class_1 values(007,107,007,'preetam singh','ramandeep sandhu','class_1','amritsar',9854)")
+a.execute("insert ignore into class_1 values(008,108,008,'arjun ghosla','karan ghosla','class_1','amritsar',9888)")
+a.execute("insert ignore into class_1 values(009,109,009,'harmanpreet','varun singh','class_1','amritsar',9870)")
+a.execute("insert ignore into class_1 values(010,110,010,'tom boon','harry boon','class_1','amritsar',9832)")
 
 # student table class_2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -84,11 +83,11 @@ class varchar(20),
 address varchar(20),
 mobile int)''')
 
-# a.execute("insert into class_2 values(011,111,011,'mandeep singh','harwinder singh','class_2','amritsar',9856)")
-# a.execute("insert into class_2 values(012,112,012,'gurjant singh','garry pandey','class_2','amritsar',9856)")
-# a.execute("insert into class_2 values(013,113,013,'sonakshi','kuljinder singh','class_2','amritsar',9856)")
-# a.execute("insert into class_2 values(014,114,014,'arun sharma','varun sharma','class_2','amritsar',9856)")
-# a.execute("insert into class_2 values(015,115,015,'jami malhotra','vijay malhotra','class_2','amritsar',9856)")
+a.execute("insert ignore into class_2 values(011,111,011,'mandeep singh','harwinder singh','class_2','amritsar',9856)")
+a.execute("insert ignore into class_2 values(012,112,012,'gurjant singh','garry pandey','class_2','amritsar',9856)")
+a.execute("insert ignore into class_2 values(013,113,013,'sonakshi','kuljinder singh','class_2','amritsar',9856)")
+a.execute("insert ignore into class_2 values(014,114,014,'arun sharma','varun sharma','class_2','amritsar',9856)")
+a.execute("insert ignore into class_2 values(015,115,015,'jami malhotra','vijay malhotra','class_2','amritsar',9856)")
 
 # student table class_3>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -102,11 +101,11 @@ class varchar(20),
 address varchar(20),
 mobile int)''')
 
-# a.execute("insert into class_3 values(016,116,016,'priya pandey','garry pandey','class_3','amritsar',9856)")
-# a.execute("insert into class_3 values(017,117,017,'preetam singh','ramandeep sandhu','class_3','amritsar',9854)")
-# a.execute("insert into class_3 values(018,118,018,'arjun ghosla','karan ghosla','class_3','amritsar',9888)")
-# a.execute("insert into class_3 values(019,119,019,'harmanpreet','varun singh','class_3','amritsar',9870)")
-# a.execute("insert into class_3 values(020,120,020,'tom boon','harry boon','class_3','amritsar',9832)")
+a.execute("insert ignore into class_3 values(016,116,016,'priya pandey','garry pandey','class_3','amritsar',9856)")
+a.execute("insert ignore into class_3 values(017,117,017,'preetam singh','ramandeep sandhu','class_3','amritsar',9854)")
+a.execute("insert ignore into class_3 values(018,118,018,'arjun ghosla','karan ghosla','class_3','amritsar',9888)")
+a.execute("insert ignore into class_3 values(019,119,019,'harmanpreet','varun singh','class_3','amritsar',9870)")
+a.execute("insert ignore into class_3 values(020,120,020,'tom boon','harry boon','class_3','amritsar',9832)")
 
 # student table class_4>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -120,11 +119,11 @@ class varchar(20),
 address varchar(20),
 mobile int)''')
 
-# a.execute("insert into class_4 values(021,121,021,'priya pandey','garry pandey','class_4','amritsar',9856)")
-# a.execute("insert into class_4 values(022,122,022,'preetam singh','ramandeep sandhu','class_4','amritsar',9854)")
-# a.execute("insert into class_4 values(023,123,023,'arjun ghosla','karan ghosla','class_4','amritsar',9888)")
-# a.execute("insert into class_4 values(024,124,024,'harmanpreet','varun singh','class_4','amritsar',9870)")
-# a.execute("insert into class_4 values(025,125,025,'tom boon','harry boon','class_4','amritsar',9832)")
+a.execute("insert ignore into class_4 values(021,121,021,'priya pandey','garry pandey','class_4','amritsar',9856)")
+a.execute("insert ignore into class_4 values(022,122,022,'preetam singh','ramandeep sandhu','class_4','amritsar',9854)")
+a.execute("insert ignore into class_4 values(023,123,023,'arjun ghosla','karan ghosla','class_4','amritsar',9888)")
+a.execute("insert ignore into class_4 values(024,124,024,'harmanpreet','varun singh','class_4','amritsar',9870)")
+a.execute("insert ignore into class_4 values(025,125,025,'tom boon','harry boon','class_4','amritsar',9832)")
 
 # student table class_5>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -138,11 +137,11 @@ class varchar(20),
 address varchar(20),
 mobile int)''')
 
-# a.execute("insert into class_5 values(026,126,026,'mandeep singh','harwinder singh','class_5','amritsar',9856)")
-# a.execute("insert into class_5 values(027,127,027,'gurjant singh','garry pandey','class_5','amritsar',9856)")
-# a.execute("insert into class_5 values(028,128,028,'sonakshi','kuljinder singh','class_5','amritsar',9856)")
-# a.execute("insert into class_5 values(029,129,029,'arun sharma','varun sharma','class_5','amritsar',9856)")
-# a.execute("insert into class_5 values(030,130,030,'jami malhotra','vijay malhotra','class_5','amritsar',9856)")
+a.execute("insert ignore into class_5 values(026,126,026,'mandeep singh','harwinder singh','class_5','amritsar',9856)")
+a.execute("insert ignore into class_5 values(027,127,027,'gurjant singh','garry pandey','class_5','amritsar',9856)")
+a.execute("insert ignore into class_5 values(028,128,028,'sonakshi','kuljinder singh','class_5','amritsar',9856)")
+a.execute("insert ignore into class_5 values(029,129,029,'arun sharma','varun sharma','class_5','amritsar',9856)")
+a.execute("insert ignore into class_5 values(030,130,030,'jami malhotra','vijay malhotra','class_5','amritsar',9856)")
 
 # LEAVE REQUEST TABLE TEACHER>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -184,19 +183,19 @@ type varchar(20),
 year_constructed date,
 current_status varchar(20))''')
 
-# a.execute("insert into classes  values(1,'kindergarden','2001-06-15','occupied')")
-# a.execute("insert into classes  values(2,'class_1','2001-06-15','occupied')")
-# a.execute("insert into classes  values(3,'class_2','2001-06-15','occupied')")
-# a.execute("insert into classes  values(4,'class_3','2001-06-15','occupied')")
-# a.execute("insert into classes  values(5,'class_4','2001-06-15','occupied')")
-# a.execute("insert into classes  values(6,'class_5','2001-06-15','occupied')")
-# a.execute("insert into classes  values(7,'staff room','2001-06-15','occupied')")
-# a.execute("insert into classes  values(8,'principle office','2009-09-15','occupied')")
-# a.execute("insert into classes  values(9,'computer lab','2011-08-15','occupied')")
-# a.execute("insert into classes  values(10,'science lab','2015-03-12','occupied')")
-# a.execute("insert into classes  values(11,'sports room','2007-04-03','occupied')")
-# a.execute("insert into classes  values(12,'library','2008-06-18','occupied')")
-# a.execute("insert into classes  values(13,'kitchen','2002--08-27','occupied')")
+a.execute("insert ignore into classes  values(1,'kindergarden','2001-06-15','occupied')")
+a.execute("insert ignore into classes  values(2,'class_1','2001-06-15','occupied')")
+a.execute("insert ignore into classes  values(3,'class_2','2001-06-15','occupied')")
+a.execute("insert ignore into classes  values(4,'class_3','2001-06-15','occupied')")
+a.execute("insert ignore into classes  values(5,'class_4','2001-06-15','occupied')")
+a.execute("insert ignore into classes  values(6,'class_5','2001-06-15','occupied')")
+a.execute("insert ignore into classes  values(7,'staff room','2001-06-15','occupied')")
+a.execute("insert ignore into classes  values(8,'principle office','2009-09-15','occupied')")
+a.execute("insert ignore into classes  values(9,'computer lab','2011-08-15','occupied')")
+a.execute("insert ignore into classes  values(10,'science lab','2015-03-12','occupied')")
+a.execute("insert ignore into classes  values(11,'sports room','2007-04-03','occupied')")
+a.execute("insert ignore into classes  values(12,'library','2008-06-18','occupied')")
+a.execute("insert ignore into classes  values(13,'kitchen','2002--08-27','occupied')")
 
 # GRANT TABLE>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
